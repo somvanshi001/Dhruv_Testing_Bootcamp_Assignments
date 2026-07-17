@@ -1,0 +1,18 @@
+package com.Task53AzureAssessment;
+
+public class InstanceOfOperator {
+
+	public static void main(String[] args) {
+
+        System.out.println("INSTANCEOF OPERATOR");
+
+        Object obj = "Automation";
+        System.out.println("obj value: " + obj);
+        if (obj instanceof String) {
+            System.out.println("Result: obj is an instance of String");
+        } else {
+            System.out.println("Result: obj is NOT a String");
+        }
+	}
+
+}

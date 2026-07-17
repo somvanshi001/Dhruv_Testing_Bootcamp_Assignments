@@ -1,0 +1,33 @@
+package EmployeeManagement;
+class EmployeeManagement {
+    void work() {
+        System.out.println("Employee performs general work.");
+    }
+}
+
+class Manager extends EmployeeManagement {
+    @Override
+    void work() {
+        System.out.println("Manager manages the team and projects.");
+    }
+}
+
+class Developer extends EmployeeManagement {
+    @Override
+    void work() {
+        System.out.println("Developer writes and tests code.");
+    }
+}
+
+public class Employee{
+    public static void main(String[] args) {
+
+
+        EmployeeManagement e = new Manager();
+        e.work();
+
+        EmployeeManagement m = new Developer();
+        m.work();
+    }
+}
+

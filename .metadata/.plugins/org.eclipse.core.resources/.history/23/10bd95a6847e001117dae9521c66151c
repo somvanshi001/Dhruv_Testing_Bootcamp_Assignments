@@ -1,0 +1,15 @@
+package com.Constructors.Examples;
+
+public class Website {
+	
+	String webName;
+	int webAge;
+	
+	Website
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

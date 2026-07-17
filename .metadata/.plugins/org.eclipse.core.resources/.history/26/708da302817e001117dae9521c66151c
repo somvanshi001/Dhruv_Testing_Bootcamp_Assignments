@@ -1,0 +1,10 @@
+package com.Constructors.Examples;
+
+public class C_02_OverloadingArgumentType {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

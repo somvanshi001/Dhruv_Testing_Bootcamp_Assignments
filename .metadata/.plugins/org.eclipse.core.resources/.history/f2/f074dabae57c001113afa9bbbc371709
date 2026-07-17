@@ -1,0 +1,10 @@
+package com.Jump_ControlStatements.Examples;
+
+public class Break_Statement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

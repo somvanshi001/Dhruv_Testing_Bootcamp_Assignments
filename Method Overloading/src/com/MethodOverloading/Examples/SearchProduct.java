@@ -1,0 +1,28 @@
+
+//Example 2: E-Commerce Application
+//Customers can search Products using different options
+package com.MethodOverloading.Examples;
+
+public class SearchProduct {
+	public void search(String productName) {
+        System.out.println("Searching product by Name: " + productName);
+    }
+
+    void search(String productName,String brand) {
+        System.out.println("Searching by productname and brand : "+ productName + " "+ brand);
+    }
+
+    void search(String productName,String brand,int price) {
+        System.out.println("Searching by productname, brand and Price : " + productName +" "+brand + " "+ price );
+    }
+
+	    
+
+	public static void main(String[] args) {
+		SearchProduct s = new SearchProduct();
+		s.search("Laptop");
+		s.search("Laptop","Macbook Pro");
+		s.search("Laptop","Macbook Pro",100000 );
+	}
+
+}

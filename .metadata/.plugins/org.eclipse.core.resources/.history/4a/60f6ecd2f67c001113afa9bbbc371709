@@ -1,0 +1,10 @@
+package com.AccessModifiers.Examples;
+
+public class C_01_Private {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

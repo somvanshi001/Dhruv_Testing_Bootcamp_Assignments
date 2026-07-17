@@ -1,0 +1,56 @@
+/*Write a Java program to demonstrate the use of Constructors. Create a class Employee with the following data members:
+
+Employee ID
+Employee Name
+Employee Salary*/
+
+package com.Constructors.Examples;
+
+class Employee {
+
+    private int empId;
+    private String empName;
+    private double empSalary;
+
+    // Parameterized
+    Employee(int empId, String empName, double empSalary) {
+        this.empId = empId;
+        this.empName = empName;
+        this.empSalary = empSalary;
+    }
+
+    public int getEmpId() {
+        return empId;
+    }
+
+    public String getEmpName() {
+        return empName;
+    }
+
+    public double getEmpSalary() {
+        return empSalary;
+    }
+
+    public void setEmpId(int empId) {
+        this.empId = empId;
+    }
+
+    public void setEmpName(String empName) {
+        this.empName = empName;
+    }
+
+    public void setEmpSalary(double empSalary) {
+        this.empSalary = empSalary;
+    }
+}
+public class GetterandSetter {
+
+	public static void main(String[] args) {
+		Employee Dhruv = new Employee(101,"DHRUV", 102000.50);
+		System.out.println("Employee ID : \t "+Dhruv.getEmpId());
+		System.out.println("Employee Name : \t "+Dhruv.getEmpName());
+		System.out.println("Employee Salary : "+Dhruv.getEmpSalary());
+
+	}
+
+}
