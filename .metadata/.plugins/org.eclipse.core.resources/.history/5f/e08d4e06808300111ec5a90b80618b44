@@ -1,0 +1,38 @@
+package DropDownItemsDemo;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+public class facebookPrintAll {
+	WebDriver driver;
+	String url = "https://www.facebook.com/reg/?entry_point=login&next=";
+
+	@BeforeTest
+	public void Case() {
+		driver = new ChromeDriver();
+		driver.navigate().to(url);
+		driver.manage().window().maximize();
+	}
+
+	@Test
+	public void PrintAllOptions() {
+		WebElement Day_Dropdown = driver.findElement(By.id("First name"));
+		Select Day_list = new Select(Day_Dropdown);
+		List<WebElement> d_list = Day_list.getOptions();
+		System.out.println("Total no. of days : ");
+
+		for (WebElement ele : d_list) {
+			String days = ele.getText();
+			System.out.println(days);
+		}
+
+	}
+
+}

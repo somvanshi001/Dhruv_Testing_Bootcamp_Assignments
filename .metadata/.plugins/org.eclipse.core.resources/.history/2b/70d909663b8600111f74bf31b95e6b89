@@ -1,0 +1,28 @@
+package DropDownItemsDemo;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+public class CaseStudiesTask75_2 {
+	WebDriver driver;
+	String baseURL= "https://www.spicejet.com/";
+	
+	
+	@BeforeTest
+	public void Setup() throws InterruptedException {
+
+		driver = new ChromeDriver ();
+		driver.navigate().to(baseURL);
+		driver.manage().window().maximize();
+		Thread.sleep(3000);
+	}
+	
+	@Test
+	public void demotask() {
+		WebElement Currency_Dropdown = driver.findElement(By.xpath("//body/div[@id='react-root']/div[@id='main-container']/div[@class='css-1dbjc4n r-1niwhzg r-1jgb5lz r-r0h9e2 r-13qz1uu']/div[@class='css-1dbjc4n r-14lw9ot']/div[@class='css-1dbjc4n r-14lw9ot r-z2wwpe r-vgw6uq r-156q2ks r-11ict49 r-8uuktl r-136ojw6']/div[@class='css-1dbjc4n r-1pcd2l5 r-k8qxaj r-glunga r-bnwqim']/div[@class='css-1dbjc4n r-18u37iz r-19h5ruw r-184en5c']/div/div[@class='css-1dbjc4n r-14lw9ot r-11u4nky r-z2wwpe r-1phboty r-rs99b7 r-1loqt21 r-13awgt0 r-ymttw5 r-5njf8e r-1otgn73']/div[2]"));
+	}
+}

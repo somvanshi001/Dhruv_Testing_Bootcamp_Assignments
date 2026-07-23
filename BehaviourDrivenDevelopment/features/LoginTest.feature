@@ -1,0 +1,10 @@
+Feature: Checking Login & Logout Functionality
+
+  Scenario: Verify successful login with valid credentials
+    Given User opens the login page
+    When User enters username "student"
+    And User enters password "Password123"
+    And User clicks on the Submit button
+    Then User should be redirected to the URL containing "practicetestautomation.com/logged-in-successfully/"
+    And User should see the message "Congratulations" or "successfully logged in"
+    And User should see the "Log out" button

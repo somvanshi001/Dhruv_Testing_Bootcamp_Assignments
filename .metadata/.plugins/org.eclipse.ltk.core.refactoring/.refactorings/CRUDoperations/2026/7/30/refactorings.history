@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.CRUDoperation.InsertIntoclass&apos; to &apos;MySqlDMLCommands&apos;&#x0D;&#x0A;- Original project: &apos;CRUDoperations&apos;&#x0D;&#x0A;- Original element: &apos;com.CRUDoperation.InsertIntoclass&apos;&#x0D;&#x0A;- Renamed element: &apos;com.CRUDoperation.MySqlDMLCommands&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;InsertIntoclass&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.CRUDoperation{InsertIntoclass.java[InsertIntoclass" matchStrategy="1" name="MySqlDMLCommands" qualified="false" references="true" similarDeclarations="false" stamp="1784695989022" textual="false" version="1.0"/>
+</session>

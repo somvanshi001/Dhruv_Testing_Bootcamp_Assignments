@@ -1,0 +1,33 @@
+package com.JDBC.Connection;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class DtabaseTest {
+
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		// TODO Auto-generated method stub
+		String url = "jdbc:mysql://localhost:3306/seleniumautomation";
+		String username = "root";
+		String password = "manju/1973";
+		
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		System.out.println("Connecting to Database");
+		Connection con = DriverManager.getConnection(url, username, password);
+		Statement stmt = con.createStatement();
+		
+		String query = "SELECT * FROM seleniumautomation.book_detl; ";
+		ResultSet rs = stmt.executeQuery(query);
+		
+		while(rs.next()){
+			String auth = rs.getString("author");
+			String tit = rs.getString("title");
+			System.out.println("author : " + auth + " title : " + tit );
+		}
+		con.close();
+	}
+
+}

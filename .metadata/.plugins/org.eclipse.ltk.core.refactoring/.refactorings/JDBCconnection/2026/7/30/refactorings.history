@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;JDBCconnections&apos; to &apos;com.JDBC.Connection&apos;&#x0D;&#x0A;- Original project: &apos;JDBCconnection&apos;&#x0D;&#x0A;- Original element: &apos;JDBCconnection/src/test/java/JDBCconnections&apos;&#x0D;&#x0A;- Renamed element: &apos;JDBCconnection/src/test/java/com.JDBC.Connection&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;JDBCconnections&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;JDBCconnections" name="com.JDBC.Connection" qualified="false" references="true" stamp="1784625350228" textual="false" version="1.0"/>
+</session>

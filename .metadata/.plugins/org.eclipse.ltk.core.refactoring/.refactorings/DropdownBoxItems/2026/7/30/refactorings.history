@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;DropDownItemsDemo.facebookPRintall.java&apos; to &apos;facebookPrintAll.java&apos;&#x0D;&#x0A;- Original project: &apos;DropdownBoxItems&apos;&#x0D;&#x0A;- Original element: &apos;DropDownItemsDemo.facebookPRintall.java&apos;&#x0D;&#x0A;- Renamed element: &apos;DropDownItemsDemo.facebookPrintAll.java&apos;" description="Rename compilation unit &apos;facebookPRintall.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;DropDownItemsDemo{facebookPRintall.java" name="facebookPrintAll.java" references="false" stamp="1784449908736" version="1.0"/>
+</session>

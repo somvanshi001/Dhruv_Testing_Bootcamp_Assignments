@@ -1,0 +1,27 @@
+package com.allureReportsdemo;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class VerifyTitle {
+
+    @Test
+    public void verifyTitleAndURL() {
+
+        WebDriver driver = new ChromeDriver();
+
+        driver.get("https://www.google.com/");
+
+        String expectedTitle = "Google";
+        String actualTitle = driver.getTitle();
+        Assert.assertEquals(actualTitle, expectedTitle, "Title Mismatch");
+
+        String expectedURL = "https://www.google.com/";
+        String actualURL = driver.getCurrentUrl();
+        Assert.assertEquals(actualURL, expectedURL, "URL Mismatch");
+
+        driver.quit();
+    }
+}

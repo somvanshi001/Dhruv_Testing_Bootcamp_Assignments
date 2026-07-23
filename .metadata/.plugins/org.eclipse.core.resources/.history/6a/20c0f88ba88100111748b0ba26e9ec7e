@@ -1,0 +1,26 @@
+package MultipleFramesExamples;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class multipleframes {
+
+    @Test
+    public void verifyFrames() throws Exception {
+
+        WebDriver driver = new ChromeDriver();
+
+        String url = "file:///C:/multipleframes/iframee.html";
+
+        driver.navigate().to(url);
+        driver.manage().window().maximize();
+
+        int totalFrames = driver.findElements(By.tagName("iframe")).size();
+
+        System.out.println("Total no. of frames: " + totalFrames);
+
+        driver.quit();
+    }
+}

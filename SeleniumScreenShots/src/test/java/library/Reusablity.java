@@ -1,0 +1,21 @@
+package library;
+
+import java.io.File;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+
+public class Reusablity {
+	public static void CapturesSS(WebDriver driver, String ss) {
+		try {
+			TakesScreenshot ts = (TakesScreenshot) driver;
+			File source = ts.getScreenshotAs(OutputType.FILE);
+			FileUtils.copyFile(source, new File("./ScreenShots/SpicejetHomepage.png"));
+			System.out.println("Capture ss by selenium webdriver");
+		} catch (Exception e) {
+			System.out.println("Exception while taking ss" + e.getMessage());
+		}
+	}
+}

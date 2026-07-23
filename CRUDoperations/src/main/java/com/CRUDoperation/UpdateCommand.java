@@ -1,0 +1,29 @@
+package com.CRUDoperation;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class UpdateCommand {
+
+	public static void main(String[] args) throws SQLException {
+
+		// 1. Create Connection
+		String databaseURL = "jdbc:mysql://localhost:3306/SeleniumAutomation";
+		String user = "root";
+		String password = "manju/1973";
+
+		// Class.forName("com.mysql.cj.jdbc.Driver");
+
+		Connection con = DriverManager.getConnection(databaseURL, user, password);
+		Statement stmt = con.createStatement();
+
+		String query = "UPDATE book_detl SET author = 'Raghu' WHERE author = 'Raghavendra' ";
+
+		stmt.execute(query);
+
+		con.close();
+		System.out.println("Statement Executed : Record Update Successfully");
+	}
+}
