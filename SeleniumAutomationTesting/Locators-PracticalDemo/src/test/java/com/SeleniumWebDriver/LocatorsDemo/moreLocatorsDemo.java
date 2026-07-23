@@ -1,0 +1,6 @@
+package com.SeleniumWebDriver.LocatorsDemo;
+
+public class moreLocatorsDemo {
+	
+
+}

@@ -1,0 +1,10 @@
+package com.Task52_IfStatements.Examples;
+
+public class Ecommerce_Discount {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

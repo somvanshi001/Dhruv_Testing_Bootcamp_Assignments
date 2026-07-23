@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
+<<<<<<< HEAD
     <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
     <fullyQualifiedTypeName name="Helper.BrowserFactory"/>
     <fullyQualifiedTypeName name="com.Easycalculation.Pages.LoginEasyCal"/>
     <fullyQualifiedTypeName name="java.sql.Statement"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="java.sql.Connection"/>
+=======
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+>>>>>>> 730f8ba3e0e8e821af301a4b74c1620f6493eacd
 </qualifiedTypeNameHistroy>

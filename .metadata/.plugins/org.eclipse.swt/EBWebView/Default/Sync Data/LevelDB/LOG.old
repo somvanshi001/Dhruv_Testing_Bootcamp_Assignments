@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 2026/07/22-09:16:17.341 8758 Reusing MANIFEST E:\SeleniumAutomationTesting\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB/MANIFEST-000001
 2026/07/22-09:16:17.354 8758 Recovering log #3
 2026/07/22-09:16:17.355 8758 Reusing old log E:\SeleniumAutomationTesting\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB/000003.log 
+=======
+2026/07/14-11:40:54.461 1d74 Reusing MANIFEST C:\CoforgeAutomationTesting\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB/MANIFEST-000001
+2026/07/14-11:40:54.463 1d74 Recovering log #3
+2026/07/14-11:40:54.463 1d74 Reusing old log C:\CoforgeAutomationTesting\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB/000003.log 
+>>>>>>> 730f8ba3e0e8e821af301a4b74c1620f6493eacd

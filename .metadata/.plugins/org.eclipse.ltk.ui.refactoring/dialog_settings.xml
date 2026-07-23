@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+<<<<<<< HEAD
 	<section name="RefactoringWizard.Convert from JUnit">
 		<item key="width" value="601"/>
 		<item key="height" value="478"/>
@@ -13,8 +14,18 @@
 		<item key="DIALOG_HEIGHT" value="689"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
+=======
+>>>>>>> 730f8ba3e0e8e821af301a4b74c1620f6493eacd
 	<section name="RefactoringWizard.preview">
 		<item key="width" value="600"/>
 		<item key="height" value="400"/>
 	</section>
+<<<<<<< HEAD
+=======
+	<section name="RefactoringStatusDialog">
+		<item key="DIALOG_WIDTH" value="815"/>
+		<item key="DIALOG_HEIGHT" value="489"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+>>>>>>> 730f8ba3e0e8e821af301a4b74c1620f6493eacd
 </section>

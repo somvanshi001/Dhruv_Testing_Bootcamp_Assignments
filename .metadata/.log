@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 !SESSION 2026-07-22 09:15:20.757 -----------------------------------------------
+=======
+!SESSION 2026-07-10 10:12:54.365 -----------------------------------------------
+>>>>>>> 730f8ba3e0e8e821af301a4b74c1620f6493eacd
 eclipse.buildId=4.40.0.20260604-0652
 java.version=21.0.11
 java.vendor=Eclipse Adoptium
@@ -6,6 +10,7 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
 
+<<<<<<< HEAD
 This is a continuation of log file E:\SeleniumAutomationTesting\.metadata\.bak_0.log
 Created Time: 2026-07-22 09:15:55.911
 
@@ -282,12 +287,22 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.e
 !MESSAGE Logback config file: E:\SeleniumAutomationTesting\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
 
 !ENTRY org.eclipse.egit.ui 2 0 2026-07-23 07:36:09.085
+=======
+!ENTRY ch.qos.logback.classic 1 0 2026-07-10 10:13:04.889
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-07-10 10:13:37.606
+!MESSAGE Logback config file: C:\CoforgeAutomationTesting\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-07-10 10:14:07.119
+>>>>>>> 730f8ba3e0e8e821af301a4b74c1620f6493eacd
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\somva'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2026-07-23 07:36:12.376
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 
@@ -467,3 +482,191 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2026-07-23 07:57:41.001
 !MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+=======
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2026-07-10 10:20:39.174
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,org.webjars.jquery.source,3.7.1 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2026-07-10 10:20:39.175
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,org.webjars.jquery,3.7.1 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2026-07-10 10:20:39.591
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,org.testng.source,7.11.0.r202503091654 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2026-07-10 10:20:39.593
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,org.testng,7.11.0.r202503091654 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2026-07-10 10:20:39.595
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,com.beust.jcommander.source,1.83.0 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2026-07-10 10:20:39.595
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,org.yaml.snakeyaml.source,2.2.0 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2026-07-10 10:20:39.596
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,org.yaml.snakeyaml,2.2.0 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2026-07-10 10:20:39.598
+!MESSAGE The digest algorithms (md5) used to verify org.eclipse.update.feature,org.testng.p2.feature,7.11.0.r202503091654 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2026-07-10 10:20:39.601
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,com.beust.jcommander,1.83.0 have severely compromised security. Please report this concern to the artifact provider.
+!SESSION 2026-07-10 10:21:09.258 -----------------------------------------------
+eclipse.buildId=4.40.0.20260604-0652
+java.version=21.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/C:/CoforgeAutomationTesting/
+
+!ENTRY ch.qos.logback.classic 1 0 2026-07-10 10:21:18.447
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-07-10 10:21:23.168
+!MESSAGE Logback config file: C:\CoforgeAutomationTesting\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-07-10 10:21:35.657
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\somva'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2026-07-10 10:26:34.466 -----------------------------------------------
+eclipse.buildId=4.40.0.20260604-0652
+java.version=21.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/C:/CoforgeAutomationTesting/
+
+!ENTRY ch.qos.logback.classic 1 0 2026-07-10 10:26:43.325
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-07-10 10:26:48.015
+!MESSAGE Logback config file: C:\CoforgeAutomationTesting\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-07-10 10:26:58.574
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\somva'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2026-07-11 09:59:37.077 -----------------------------------------------
+eclipse.buildId=4.40.0.20260604-0652
+java.version=21.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-07-11 09:59:42.935
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-07-11 09:59:57.115
+!MESSAGE Logback config file: C:\CoforgeAutomationTesting\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-07-11 10:00:04.976
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\somva'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2026-07-13 09:46:41.820 -----------------------------------------------
+eclipse.buildId=4.40.0.20260604-0652
+java.version=21.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-07-13 09:46:46.562
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-07-13 09:46:48.059
+!MESSAGE Logback config file: C:\CoforgeAutomationTesting\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-07-13 09:46:55.536
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\somva'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2026-07-13 15:00:11.825 -----------------------------------------------
+eclipse.buildId=4.40.0.20260604-0652
+java.version=21.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-07-13 15:00:17.114
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-07-13 15:00:18.905
+!MESSAGE Logback config file: C:\CoforgeAutomationTesting\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-07-13 15:00:29.295
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\somva'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2026-07-14 09:39:16.515 -----------------------------------------------
+eclipse.buildId=4.40.0.20260604-0652
+java.version=21.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-07-14 09:39:21.808
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-07-14 09:39:23.500
+!MESSAGE Logback config file: C:\CoforgeAutomationTesting\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-07-14 09:39:35.300
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\somva'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2026-07-14 11:38:08.231 -----------------------------------------------
+eclipse.buildId=4.40.0.20260604-0652
+java.version=21.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-07-14 11:38:13.330
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-07-14 11:38:15.239
+!MESSAGE Logback config file: C:\CoforgeAutomationTesting\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-07-14 11:38:24.108
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\somva'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2026-07-14 11:39:23.566 -----------------------------------------------
+eclipse.buildId=4.40.0.20260604-0652
+java.version=21.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-07-14 11:39:28.212
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-07-14 11:39:29.839
+!MESSAGE Logback config file: C:\CoforgeAutomationTesting\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-07-14 11:39:38.377
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\somva'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+>>>>>>> 730f8ba3e0e8e821af301a4b74c1620f6493eacd

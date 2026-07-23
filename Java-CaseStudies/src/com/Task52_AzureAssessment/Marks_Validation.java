@@ -1,0 +1,14 @@
+package com.Task52_AzureAssessment;
+
+public class Marks_Validation {
+
+	public static void main(String[] args) {
+		System.out.println("Marks Validation");
+		 int marks = 85;
+	        System.out.println("Marks Obtained: " + marks);
+	        if (marks >= 40) {
+	            System.out.println("Result: Student has PASSED the exam.");
+	        }
+	}
+
+}

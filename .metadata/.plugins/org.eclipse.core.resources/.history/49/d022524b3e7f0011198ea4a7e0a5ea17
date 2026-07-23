@@ -1,0 +1,12 @@
+package File_Handling_Methods;
+
+import java.io.File;
+
+public class GetFileInformation {
+
+	public static void main(String[] args) {
+		File myObj = new File("");
+
+	}
+
+}

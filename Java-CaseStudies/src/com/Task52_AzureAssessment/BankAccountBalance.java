@@ -1,0 +1,20 @@
+package com.Task52_AzureAssessment;
+
+public class BankAccountBalance {
+
+	public static void main(String[] args) {
+
+        System.out.println("Checking Bank Account Balance");
+        int balance = 5000;
+        int withdrawalAmount = 3000;
+        System.out.println("Account Balance: Rs. " + balance);
+        System.out.println("Withdrawal Requested: Rs. " + withdrawalAmount);
+        if (balance >= withdrawalAmount) {
+            System.out.println("Result: Withdrawal approved. Sufficient balance available.");
+        }
+        else {
+        	System.out.println("Result: Withdrawal rejected. Insufficient Balance");
+        }
+	}
+
+}

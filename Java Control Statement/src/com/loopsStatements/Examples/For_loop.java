@@ -1,0 +1,13 @@
+package com.loopsStatements.Examples;
+
+public class For_loop {
+
+	public static void main(String[] args) {
+		System.out.println("printing number till 10");
+		for(int i=0;i<=10;i++) {
+			System.out.println(i);
+		}
+
+	}
+
+}

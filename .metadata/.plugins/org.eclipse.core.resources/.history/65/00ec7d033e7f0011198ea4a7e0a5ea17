@@ -1,0 +1,10 @@
+package File_Handling_Methods;
+
+public class GetFileInformation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

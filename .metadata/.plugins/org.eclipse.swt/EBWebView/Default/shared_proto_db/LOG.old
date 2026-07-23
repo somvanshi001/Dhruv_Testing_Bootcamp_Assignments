@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 2026/07/22-09:16:17.607 3d1c Reusing MANIFEST E:\SeleniumAutomationTesting\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db/MANIFEST-000001
 2026/07/22-09:16:17.607 3d1c Recovering log #3
 2026/07/22-09:16:17.609 3d1c Reusing old log E:\SeleniumAutomationTesting\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db/000003.log 
+=======
+2026/07/14-11:40:54.498 3f50 Reusing MANIFEST C:\CoforgeAutomationTesting\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db/MANIFEST-000001
+2026/07/14-11:40:54.499 3f50 Recovering log #3
+2026/07/14-11:40:54.499 3f50 Reusing old log C:\CoforgeAutomationTesting\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db/000003.log 
+>>>>>>> 730f8ba3e0e8e821af301a4b74c1620f6493eacd

@@ -1,0 +1,25 @@
+package com.Task53AzureAssessment;
+
+public class ArithmeticOperators {
+
+	public static void main(String[] args) {
+		
+        System.out.println("ARITHMETIC OPERATORS");
+        double laptopPrice = 50000;
+        int quantity = 2;
+        double totalPrice = laptopPrice * quantity;   
+        double tax = totalPrice * 0.18;                
+        double finalAmount = totalPrice + tax;        
+        double discountPerUnit = laptopPrice / quantity;
+        int remainder = (int) totalPrice % 7;          
+ 
+        System.out.println("Laptop Price       : Rs. " + laptopPrice);
+        System.out.println("Quantity           : " + quantity);
+        System.out.println("Total Price (a*b)  : Rs. " + totalPrice);
+        System.out.println("Tax (18%)          : Rs. " + tax);
+        System.out.println("Final Amount (a+b) : Rs. " + finalAmount);
+        System.out.println("Modulus (total % 7): " + remainder);
+
+	}
+
+}

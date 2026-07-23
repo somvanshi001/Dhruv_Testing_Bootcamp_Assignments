@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 2026/07/23-07:36:18.494 3104 Reusing MANIFEST E:\SeleniumAutomationTesting\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension State/MANIFEST-000001
 2026/07/23-07:36:18.494 3104 Recovering log #3
 2026/07/23-07:36:18.495 3104 Reusing old log E:\SeleniumAutomationTesting\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension State/000003.log 
+=======
+2026/07/14-11:56:03.495 6228 Reusing MANIFEST C:\CoforgeAutomationTesting\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension State/MANIFEST-000001
+2026/07/14-11:56:03.495 6228 Recovering log #3
+2026/07/14-11:56:03.496 6228 Reusing old log C:\CoforgeAutomationTesting\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension State/000003.log 
+>>>>>>> 730f8ba3e0e8e821af301a4b74c1620f6493eacd

@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 2026/07/17-10:29:52.998 55fc Creating DB E:\SeleniumAutomationTesting\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension Scripts since it was missing.
 2026/07/17-10:29:53.003 55fc Reusing MANIFEST E:\SeleniumAutomationTesting\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension Scripts/MANIFEST-000001
+=======
+2026/07/10-10:14:04.859 5748 Creating DB C:\CoforgeAutomationTesting\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension Scripts since it was missing.
+2026/07/10-10:14:04.883 5748 Reusing MANIFEST C:\CoforgeAutomationTesting\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension Scripts/MANIFEST-000001
+>>>>>>> 730f8ba3e0e8e821af301a4b74c1620f6493eacd
